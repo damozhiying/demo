@@ -10,7 +10,7 @@ spec:
   template:
     arguments:
       - name: IMAGE
-        value: rio-registry.io/daishan1992/demo:v1
+        value: cloud.docker.com/damozhiying/rio-demo:v1
       - name: BUILDKIT_DAEMON_ADDRESS
         value: tcp://buildkit
     kind: ClusterBuildTemplate
